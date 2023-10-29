@@ -83,12 +83,3 @@ $ ./gradlew assembleNobuildcheck
 gradlew build will not work anymore, as the sources for our internal testing build flavor *stage* are not included in the public git repository.
 
 The compiled apk files can be found under: `SnoopSnitch/app/build/outputs/apk/`
-
-
-Please consult the Android documentation on how to set up the tools and
-perform a release build.
-
-
-[1] https://developer.android.com/sdk/
-
-[2] https://developer.android.com/tools/sdk/ndk/
